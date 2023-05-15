@@ -1,0 +1,11 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap');
+
+/* fonts and color variables */
+
+:root {
+    --main-color: #3a3a3a;
+    --main-font: "Roboto Slab", cursive;
+    --secondary-font: "Playfair", sans-serif;
+}
+
