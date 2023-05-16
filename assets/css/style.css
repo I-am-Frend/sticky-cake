@@ -4,7 +4,7 @@
 /* fonts and color variables */
 
 :root {
-    --main-color: #3a3a3a;
+    --main-color: #303030;
     --main-font: 'Roboto Slab', cursive;
     --secondary-font: 'Playfair', sans-serif;
 }
@@ -22,6 +22,7 @@ body {
     font-family: var(--main-font);
     font-weight: 300;
     color: var(--main-color);
+    background-color: #e3e4e6;
 }
 
 h1 {
@@ -51,6 +52,20 @@ h1 {
     margin-right: 15px;
 }
 
+/* button */
+
+.button {
+    border: none;
+    color: var(--main-color);
+    background-color: #008CBA;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
 /* scroll behaviour */
 html {
