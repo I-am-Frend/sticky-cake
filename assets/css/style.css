@@ -5,8 +5,8 @@
 
 :root {
     --main-color: #3a3a3a;
-    --main-font: "Roboto Slab", cursive;
-    --secondary-font: "Playfair", sans-serif;
+    --main-font: 'Roboto Slab', cursive;
+    --secondary-font: 'Playfair', sans-serif;
 }
 
 /* basic reset */
@@ -17,8 +17,28 @@
     box-sizing: border-box;
 }
 
-/* general settings */
-
+/* style for pages */
 body {
-    
+    font-family: var(--main-font);
+    font-weight: 300;
+    color: var(--main-color);
+}
+
+h1 {
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #252525;
+}
+
+#logo {
+    text-align: center;
+    vertical-align: top;
+    font-size: 230%;
+}
+
+/* scroll behaviour */
+html {
+    scroll-behavior: smooth;
+    width: 100%;
 }
