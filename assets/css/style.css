@@ -153,6 +153,14 @@ hr {
     font: 180%;
 }
 
+/* recipie */
+
+#recipie {
+    list-style: inherit;
+    font-size: 100%;
+    margin: 0 auto;
+}
+
 /* image square */
 
 #center-square {
