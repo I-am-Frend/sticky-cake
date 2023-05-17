@@ -55,7 +55,7 @@ h1 {
     margin-right: 15px;
 }
 
-/* button */
+/* button for images */
 
 .button {
     border: none;
@@ -117,10 +117,10 @@ html {
     float: left;
 }
 
-#right-div-img {
+#right-div {
     padding-top: 30px;
     width: 33%;
-    margin: 0 auto;
+    float: right;
 }
 
 hr {
@@ -129,9 +129,17 @@ hr {
     margin: 5px 0;
 }
 
-.home-page-heading {
+.left-home-page-heading {
     width: 60%;
     float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-home-page-heading {
+    width: 60%;
+    float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -144,19 +152,41 @@ hr {
     font: 180%;
 }
 
-/* image circle */
+/* image square */
 
-#right-circle {
+#center-square {
     width: 300px;
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-radius: 50%;
+    border-radius: 30%;
     margin: 0 auto;
 }
 
-#circle-bg {
+#square-bg {
     background: url(../images/Coffee-Day.jpg) no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 20%;
+}
+
+/* footer */
+
+footer {
+    height: 250px;
+    background-color: #32251b;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font: 180%;
+    margin: 1%;
+    padding: 5%;
+    color: #e3e4e6;
 }
