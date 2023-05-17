@@ -103,5 +103,36 @@ html {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.webp);
+    background: url(../images/hero-image.webp) no-repeat center center;
+}
+
+/* style for landing page */
+#chocolate {
+    height: 600px;
+}
+
+#left-div {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-div {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+hr {
+    border-top: 2px solid #000000;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.home-page-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
