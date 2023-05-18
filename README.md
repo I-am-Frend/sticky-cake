@@ -83,6 +83,7 @@ I used W3Schools and Stack-overflow for problems that were quite over my head.
 - The Text for the Recipie taken from [Tasty.co](https://tasty.co/recipe/swedish-sticky-chocolate-cake-kladdkaka)
 - Instructions on how to implement the form was taken from [W3schools](https://www.w3schools.com) and [Stack-Overflow](https://stackoverflow.com)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- I used templates from Code Institute and Snippets of Code from the Love Running project that they provided, and customized them for my page
 
 ### Media
 
