@@ -303,6 +303,16 @@ input[type=reset] {
     height: 300px;
 }
 
+.thank-you {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 50px;
+}
+
+.thank-you-text {
+
+}
 /* footer */
 
 footer {
