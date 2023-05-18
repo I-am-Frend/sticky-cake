@@ -60,7 +60,8 @@ I have confirmed that the form works and requires an email to beable to submit, 
 - CSS
   - No errors were found when passing through the official (Jigsaw) validator
 - Accessibility
-  ![Accessibility](docs/accessibility.png)
+
+![Accessibility](docs/preformance.png)
 
 ## Deployment
 
