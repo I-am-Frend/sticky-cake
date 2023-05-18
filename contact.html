@@ -26,21 +26,35 @@
     <nav>
         <ul id="nav-menu">
             <li>
-                <a href="#" class="button" aria-label="Go to Contact page">Contact</a>
+                <a href="contact.html" class="button active" aria-label="Go to Contact page">Contact</a>
             </li>
             <li>
                 <a href="recipe.html" class="button" aria-label="Go to Recipe & Baking page">Recipe &
                     Baking</a>
             </li>
             <li>
-                <a href="index.html" class="button active" aria-label="Go to Home page">Home</a>
+                <a href="index.html" class="button" aria-label="Go to Home page">Home</a>
             </li>
         </ul>
     </nav>
 
     <!--sections-->
-<section>
-    
+<section id="contact-info">
+    <h2>Want more recipes? Sign up for a newsletter!</h2>
+    <form action="https://formdump.codeinsitute.net" method="post">
+        
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" class="text-input">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" class="text-input">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" class="text-input">
+        <div id="form-button">
+            <input type="submit" value="Enter">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+
 </section>
 
     <footer>

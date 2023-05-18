@@ -231,6 +231,36 @@ hr {
     border-radius: 20%;
 }
 
+/* Form */
+
+form {
+    border: 1px solid #000000;
+    padding-top: 100px;
+    width: 600px;
+    height: 300px;
+    margin: 30px auto;
+}
+
+#contact-info {
+    width: 600px;
+    height: 100%;
+    padding-top: 20%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-input {
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+}
+
+#form-button {
+    margin-top: 10px;
+    clear: both;
+}
+
 /* footer */
 
 footer {
