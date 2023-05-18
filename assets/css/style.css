@@ -71,6 +71,10 @@ h1 {
     border-radius: 10%;
 }
 
+.active {
+    border-bottom: 2px solid #e3e4e6;
+}
+
 /* scroll behaviour */
 html {
     scroll-behavior: smooth;
@@ -155,10 +159,23 @@ hr {
 
 /* recipie */
 
-#recipie {
-    list-style: inherit;
+#recipe-container {
+    width: 300px;
+    height: 600px;
+    padding-top: 50px;
+    border: 1px solid #000000;
     font-size: 100%;
     margin: 0 auto;
+}
+
+.recipe-list h3 {
+    font-size: 150%;
+    text-align: center;
+    text-decoration: underline 1px #000000;
+}
+
+.recipe-list ol {
+    text-align: center;
 }
 
 /* image square */
@@ -183,6 +200,7 @@ hr {
 footer {
     height: 250px;
     background-color: #32251b;
+    margin-top: 75px;
 }
 
 .social-media {
