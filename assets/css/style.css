@@ -396,6 +396,7 @@ footer {
 
 }
 
+/* for smaller screens down to 555px */
 
 @media screen and (max-width: 650px) {
     #nav-menu {
