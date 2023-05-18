@@ -17,45 +17,47 @@
 
     <!--Header-->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Swedish Sticky Cake</h1>
-        </a>
+        <!--nav-->
+        <nav>
+            <a href="index.html">
+                <h1 id="logo">Swedish Sticky Cake</h1>
+            </a>
+            <ul id="nav-menu">
+                <li>
+                    <a href="contact.html" class="button active" aria-label="Go to Contact page">Contact</a>
+                </li>
+                <li>
+                    <a href="recipe.html" class="button" aria-label="Go to Recipe & Baking page">Recipe &
+                        Baking</a>
+                </li>
+                <li>
+                    <a href="index.html" class="button" aria-label="Go to Home page">Home</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <!--nav-->
-    <nav>
-        <ul id="nav-menu">
-            <li>
-                <a href="contact.html" class="button active" aria-label="Go to Contact page">Contact</a>
-            </li>
-            <li>
-                <a href="recipe.html" class="button" aria-label="Go to Recipe & Baking page">Recipe &
-                    Baking</a>
-            </li>
-            <li>
-                <a href="index.html" class="button" aria-label="Go to Home page">Home</a>
-            </li>
-        </ul>
-    </nav>
+    <main>
 
-    <!--sections-->
-<section id="contact-info">
-    <h2>Want more recipes? Sign up for a newsletter!</h2>
-    <form action="https://formdump.codeinsitute.net" method="post">
-        
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname" class="text-input">
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname" class="text-input">
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email" class="text-input">
-        <div id="form-button">
-            <input type="submit" value="Enter">
-            <input type="reset" value="Clear">
-        </div>
-    </form>
+        <!--sections-->
+        <section id="contact-info">
+            <h2>Want more recipes? Sign up for a newsletter!</h2>
+            <form action="https://formdump.codeinsitute.net" method="post">
 
-</section>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" class="text-input">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" class="text-input">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" class="text-input">
+                <div id="form-button">
+                    <input type="submit" value="Enter">
+                    <input type="reset" value="Clear">
+                </div>
+            </form>
+
+        </section>
+    </main>
 
     <footer>
         <ul class="social-media">
