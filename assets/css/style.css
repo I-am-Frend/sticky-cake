@@ -310,9 +310,6 @@ input[type=reset] {
     padding-top: 50px;
 }
 
-.thank-you-text {
-
-}
 /* footer */
 
 footer {
@@ -359,6 +356,34 @@ footer {
         padding: 0;
     }
 
+    #center-div-img,
+    #right-recipe-div {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #recipe-container {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .left-recipe-page-heading {
+        width: 100%;
+        float: left;
+    }
+
+    form {
+        border-style: none;
+    }
+
     nav {
         flex-direction: column !important;
     }
@@ -378,4 +403,10 @@ footer {
         align-self: center;
         align-items: center;
     }
+
+        form {
+            border-style: none;
+            clear: both;
+
+        }
 }
